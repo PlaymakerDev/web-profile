@@ -1,0 +1,19 @@
+.unlist_style {
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+}
+
+.more_menu {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .unlist_style {
+    display: none;
+  }
+
+  .more_menu {
+    display: block;
+  }
+}
